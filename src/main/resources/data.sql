@@ -1,0 +1,18 @@
+INSERT INTO PERSON (first_name, last_name, email) VALUES
+  ('Amol', 'Bhople', 'abc@gmail.com'),
+  ('Deja', 'Vu', 'xyz@email.com'),
+  ('Cap', 'America', 'cap@marvel.com'),
+  ('Abigail','Adam','AbigailAdam@abc.com'),
+  ('Alexandra','Adrian','AlexandraAdrian@abc.com'),
+  ('Alison','Alan','AlisonAlan@abc.com'),
+  ('Amanda','Alexander','AmandaAlexander@abc.com'),
+  ('Amelia','Andrew','AmeliaAndrew@abc.com'),
+  ('Amy','Anthony','AmyAnthony@abc.com'),
+  ('Andrea','Austin','AndreaAustin@abc.com'),
+  ('Angela','Benjamin','AngelaBenjamin@abc.com'),
+  ('Anna','Blake','AnnaBlake@abc.com'),
+  ('Anne','Boris','AnneBoris@abc.com'),
+  ('Audrey','Brandon','AudreyBrandon@abc.com'),
+  ('Ava','Brian','AvaBrian@abc.com'),
+  ('Bella','Cameron','BellaCameron@abc.com'),
+  ('Bernadette','Carl','BernadetteCarl@abc.com');

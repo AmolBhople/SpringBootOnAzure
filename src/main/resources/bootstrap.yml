@@ -1,0 +1,10 @@
+spring:
+  main:
+    banner-mode: "off"
+info:
+  team:
+    name: @project.name@
+    dev: Amol Bhople
+    verison:  @project.version@
+    project:
+      owner: Amol Bhople

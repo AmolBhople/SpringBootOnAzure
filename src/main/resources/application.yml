@@ -1,0 +1,35 @@
+server:
+  port: 7998
+spring:
+  application:
+    name: skeleton-service
+
+  security:
+    user:
+      password: P@ssword1@
+      name: user
+    basic:
+      enabled: false
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+management:
+  endpoints:
+    web:
+#      base-path: /devops/actuator
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: false
+    health:
+      show-details: always
+  metrics:
+    web:
+      server:
+        request:
+          autotime:
+            enabled: true
